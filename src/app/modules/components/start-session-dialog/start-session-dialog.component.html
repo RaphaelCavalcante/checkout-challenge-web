@@ -1,0 +1,16 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-modal">
+    <mat-icon class="icon-alert">error_outline</mat-icon>
+  </div>
+  <mat-dialog-content>
+    <div class="row text-center">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <!-- <p class="title-content">{{ data.title }}</p>
+        <p class="subtitle-content">{{ data.content }}</p> -->
+        <mat-form-field>
+          <mat-label>Nome ou CPF do Cliente</mat-label>
+          <input matInput #client (keydown.enter)="startSession(client.value)">
+        </mat-form-field>
+      </div>
+    </div>
+  </mat-dialog-content>
+  
