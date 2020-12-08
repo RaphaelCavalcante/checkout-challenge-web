@@ -1,1 +1,18 @@
-<app-basket-viewer (newAddedItem)="addItemToCart($event)" [products]="products"></app-basket-viewer>
+<mat-card fxLayout="column inline" fxFill>
+  <form [formGroup]="form" (ngSubmit)="checkout()">
+  <mat-card-header>
+    {{userName}}
+  </mat-card-header>
+  <mat-card-content>
+      <div fxFlex="80">
+        <app-basket-viewer (newAddedItem)="addItemToCart($event)" [products]="products"></app-basket-viewer>
+      </div>
+      <div fxFlex="20">
+        <app-product-input (addProductToBasket)="addProductToBasket($event)"></app-product-input>
+      </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button submit mat-raised-button color="primary" type="submit">Finalizar Compra</button>
+  </mat-card-actions>
+  </form>
+</mat-card>

@@ -10,6 +10,6 @@ import { Product } from '../../model/product.model.ts';
 export class ProductService extends CrudService<Product> {
 
   constructor(http: HttpClient) {
-    super(http, CONSTANT_URL.CLIENT);
+    super(http, CONSTANT_URL.PRODUCT);
   }
 }

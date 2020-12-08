@@ -1,1 +1,23 @@
-<p>product-input works!</p>
+<div fxFill style="background-color: red">
+
+  <form [formGroup]="form">
+    <div fxLayout="column" fxLayoutAlign="space-around center">
+      <mat-form-field>
+        <mat-label>Descrição</mat-label>
+        <input matInput formControlName="description">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Valor</mat-label>
+        <input matInput formControlName="price">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Promoções</mat-label>
+        <input matInput formControlName="promotions">
+      </mat-form-field>
+      <button type="button" mat-flat-button color="primary" (click)="addProduct(form.value)">Adicionar Produto</button>
+    </div>
+  </form>
+
+</div>

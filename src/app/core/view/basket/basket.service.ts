@@ -10,6 +10,6 @@ import { Basket } from '../../model/basket.model.ts';
 export class BasketService extends CrudService<Basket> {
 
   constructor(http: HttpClient) {
-    super(http, CONSTANT_URL.CLIENT);
+    super(http, CONSTANT_URL.BASKET);
   }
 }

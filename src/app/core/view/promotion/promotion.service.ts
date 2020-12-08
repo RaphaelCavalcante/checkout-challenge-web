@@ -10,6 +10,6 @@ import { Promotion } from '../../model/promotion.model.ts';
 export class PromotionService extends CrudService<Promotion> {
 
   constructor(http: HttpClient) {
-    super(http, CONSTANT_URL.CLIENT);
+    super(http, CONSTANT_URL.PROMOTION);
   }
 }

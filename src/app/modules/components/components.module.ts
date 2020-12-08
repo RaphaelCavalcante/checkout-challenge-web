@@ -5,7 +5,8 @@ import { ProductInputComponent } from './product-input/product-input.component';
 import { StartSessionDialogComponent } from './start-session-dialog/start-session-dialog.component';
 import { MatDialogContent, MatDialogModule, MatFormFieldControl, MatFormFieldModule,
    MatIconModule, MatInputModule, MatListModule } from '@angular/material';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -18,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    ReactiveFormsModule,
+    FlexLayoutModule
   ],
   exports: [StartSessionDialogComponent, BasketViewerComponent, ProductInputComponent]
 })

@@ -1,0 +1,14 @@
+<mat-drawer-container fxFill>
+  <mat-drawer mode="side" opened  fxLayout>
+    <div  fxLayout="column" fxLayoutAlign="space-around center">
+      <a routerLink="product" routerLinkActive="active">Produtos</a>
+      <a routerLink="promo" routerLinkActive="active">Promoções</a>
+      <a routerLink="promo-type">Tipos de promção</a>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
