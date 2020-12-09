@@ -17,7 +17,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 /admin - the path to register new market itens, promotions and promotion types
 
 
-[WIP note] - the overall project still in development phase. During the development my family had issues caused by covid-19 and that demanded my full attention, the stress about the situation have compromised the ending-half of the project. My main objectives where:
+**[WIP note] - the overall project still in development phase. During the development my family had issues caused by covid-19 and that demanded my full attention, the stress about the situation have compromised the ending-half of the project. My main objectives where:**
 
 ## General objective
   1. Separate client and administration
