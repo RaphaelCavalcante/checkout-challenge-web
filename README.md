@@ -1,3 +1,11 @@
+
+
+**[WIP note] - the overall project still in development phase. During the development my family had issues caused by covid-19 and that demanded my full attention, the stress about the situation have compromised the ending-half of the project. My main objectives where:**
+
+
+
+
+
 # CheckoutChallengeWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
@@ -15,9 +23,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 /cashier - the path to the cashier application, where can be added itens to the client cart
 
 /admin - the path to register new market itens, promotions and promotion types
-
-
-**[WIP note] - the overall project still in development phase. During the development my family had issues caused by covid-19 and that demanded my full attention, the stress about the situation have compromised the ending-half of the project. My main objectives where:**
 
 ## General objective
   1. Separate client and administration
