@@ -2,26 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
+Angular material
+
+And flexlayout
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Paths are
+ 
+/cashier - the path to the cashier application, where can be added itens to the client cart
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+/admin - the path to register new market itens, promotions and promotion types
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+[WIP note] - the overall project still in development phase. During the development my family had issues caused by covid-19 and that demanded my full attention, the stress about the situation have compromised the ending-half of the project. My main objectives where:
 
-## Running unit tests
+## General objective
+  1. Separate client and administration
+  2. Make a simplistic interface to make the system easy for anyone to use
+  3. at the code level, make components small enought to be easily exchanged between new versions or new components
+## Cashier objective
+  1. Make an real-life simulation of items checkout
+  2. Minimize cashier operation, let him only type the product references to add into the cart
+  3. At the checkout show the client's resume from his shopping cart, including main values, promotions applied and the amount saved
+## Administrative Objective
+  1. Make separately products, promotions and promotion types registries
+  2. Make dynamic promotions to fuffil the most of promotion cases and categories in an realworld market
+ 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  
